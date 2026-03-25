@@ -1,0 +1,757 @@
+{
+  "meta_version": "2026.03",
+  "tag_explanations": {
+    "attack_buff": "Increases team damage output",
+    "burst_dps": "Delivers high burst damage in short windows",
+    "sub_dealer": "Functions as secondary damage dealer",
+    "heal": "Provides sustain through healing",
+    "shield": "Generates shields to absorb damage",
+    "crit_buff": "Boosts critical hit rate for the team",
+    "cleanse": "Removes debuffs for team stability",
+    "energy_regen": "Restores energy/gauge for faster rotations",
+    "cooldown_reduction": "Reduces skill cooldowns for the team",
+    "damage_mitigation": "Reduces incoming damage for the team",
+    "aggro_control": "Controls enemy targeting to protect allies",
+    "self_sustain": "Sustains own HP without external healing",
+    "defense_shred": "Reduces enemy defense to amplify damage",
+    "aoe_damage": "Deals area-of-effect damage to multiple enemies",
+    "single_target": "Excels at focusing damage on a single enemy",
+    "dot_damage": "Deals sustained damage over time",
+    "crowd_control": "Applies freeze, slow, or stun effects",
+    "debuff": "Applies debuffs to weaken enemies",
+    "attack_speed_buff": "Increases attack speed for allies",
+    "self_buff": "Buffs own stats for increased performance",
+    "mobility": "Has high movement speed or dashes",
+    "defense_pen": "Built-in defense penetration on attacks",
+    "sustained_dps": "Delivers consistent damage over prolonged fights"
+  },
+  "characters": [
+    {
+      "name": "Bunnygirl Charlotte",
+      "role": "Assassin",
+      "tier": "T0",
+      "element": "Dark",
+      "tags": [
+        "attack_buff",
+        "burst_dps",
+        "sub_dealer"
+      ],
+      "why_meta": [
+        "Grants 2-turn attack power increase buff to all allies",
+        "Functions as both sub-dealer and main dealer",
+        "Top-tier burst scaling"
+      ],
+      "weakness": [
+        "Requires investment to reach full potential"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Emilly",
+      "role": "Support",
+      "tier": "T0",
+      "element": "Light",
+      "tags": [
+        "heal",
+        "shield",
+        "crit_buff"
+      ],
+      "why_meta": [
+        "Best-in-class healing and shielding",
+        "Provides critical rate buff to the entire team",
+        "Versatile in all PVE content"
+      ],
+      "weakness": [
+        "Low personal damage output"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Asherah (Waltz of Starlight)",
+      "role": "Dealer",
+      "tier": "T0",
+      "element": "Fire",
+      "tags": [
+        "aoe_damage",
+        "self_buff",
+        "burst_dps",
+        "attack_speed_buff"
+      ],
+      "why_meta": [
+        "Extreme AoE burst damage",
+        "Self-buffing kit with attack speed boost",
+        "Dominates all PVE content rankings"
+      ],
+      "weakness": [
+        "Fragile without proper support"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Lacy",
+      "role": "Dealer",
+      "tier": "T0",
+      "element": "Ice",
+      "tags": [
+        "single_target",
+        "defense_shred",
+        "burst_dps"
+      ],
+      "why_meta": [
+        "Highest single-target DPS ceiling",
+        "Built-in defense shred on skills",
+        "Scales exceptionally with investment"
+      ],
+      "weakness": [
+        "Weak AoE capability"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Hilde",
+      "role": "Defender",
+      "tier": "SS",
+      "element": "Earth",
+      "tags": [
+        "damage_mitigation",
+        "self_sustain",
+        "aggro_control"
+      ],
+      "why_meta": [
+        "Top-tier tank with self-sustain",
+        "Provides team-wide damage reduction",
+        "Excellent aggro management"
+      ],
+      "weakness": [
+        "Low damage contribution"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Muriel",
+      "role": "Support",
+      "tier": "SS",
+      "element": "Light",
+      "tags": [
+        "attack_buff",
+        "heal",
+        "sustained_dps"
+      ],
+      "why_meta": [
+        "Strong attack power buff for allies",
+        "Provides consistent healing over time",
+        "Good synergy with burst dealers"
+      ],
+      "weakness": [
+        "Less effective in short fights"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Frey (Noble Princess)",
+      "role": "Dealer",
+      "tier": "SS",
+      "element": "Wind",
+      "tags": [
+        "sustained_dps",
+        "self_buff",
+        "crit_buff"
+      ],
+      "why_meta": [
+        "Excellent sustained DPS",
+        "Self-buff with critical damage increase",
+        "Strong in prolonged boss fights"
+      ],
+      "weakness": [
+        "Ramp-up time needed for full power"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Bunnygirl Claire",
+      "role": "Support",
+      "tier": "SS",
+      "element": "Water",
+      "tags": [
+        "cooldown_reduction",
+        "energy_regen"
+      ],
+      "why_meta": [
+        "Team-wide cooldown reduction",
+        "Provides energy regeneration to allies",
+        "Enables faster rotations"
+      ],
+      "weakness": [
+        "Low individual healing output"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Bell Rhys",
+      "role": "Dealer",
+      "tier": "SS",
+      "element": "Thunder",
+      "tags": [
+        "burst_dps",
+        "debuff",
+        "single_target"
+      ],
+      "why_meta": [
+        "High burst combo potential",
+        "Applies debuffs that amplify team damage",
+        "Strong in both PVE and boss content"
+      ],
+      "weakness": [
+        "Combo-reliant playstyle"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Charlotte",
+      "role": "Assassin",
+      "tier": "S",
+      "element": "Dark",
+      "tags": [
+        "burst_dps",
+        "mobility"
+      ],
+      "why_meta": [
+        "Solid burst damage dealer",
+        "Good mobility and evasion"
+      ],
+      "weakness": [
+        "Outclassed by Bunnygirl variant"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Kyra",
+      "role": "Dealer",
+      "tier": "S",
+      "element": "Fire",
+      "tags": [
+        "aoe_damage",
+        "self_sustain"
+      ],
+      "why_meta": [
+        "Consistent AoE damage output",
+        "Self-sustain through lifesteal"
+      ],
+      "weakness": [
+        "Average single-target damage"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Petra",
+      "role": "Defender",
+      "tier": "S",
+      "element": "Earth",
+      "tags": [
+        "shield",
+        "crowd_control",
+        "damage_mitigation"
+      ],
+      "why_meta": [
+        "Strong shields and crowd control",
+        "Reliable tank for all content"
+      ],
+      "weakness": [
+        "Slow skill animations"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Lugh",
+      "role": "Dealer",
+      "tier": "S",
+      "element": "Light",
+      "tags": [
+        "burst_dps",
+        "crit_buff"
+      ],
+      "why_meta": [
+        "High crit-based burst potential",
+        "Good synergy with crit-buffing supports"
+      ],
+      "weakness": [
+        "Inconsistent without crit buffs"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Yoo Mina",
+      "role": "Dealer",
+      "tier": "S",
+      "element": "Thunder",
+      "tags": [
+        "sustained_dps",
+        "defense_pen",
+        "attack_speed_buff"
+      ],
+      "why_meta": [
+        "Fast attack speed with chain combos",
+        "Built-in defense penetration"
+      ],
+      "weakness": [
+        "Squishy in hard content"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Roberta",
+      "role": "Support",
+      "tier": "S",
+      "element": "Water",
+      "tags": [
+        "cleanse",
+        "heal"
+      ],
+      "why_meta": [
+        "Strong cleanse and debuff immunity",
+        "Decent healing throughput"
+      ],
+      "weakness": [
+        "No offensive buffs for the team"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Dana",
+      "role": "Defender",
+      "tier": "S",
+      "element": "Ice",
+      "tags": [
+        "shield",
+        "damage_mitigation"
+      ],
+      "why_meta": [
+        "Massive shield generation",
+        "Reduces incoming damage for whole team"
+      ],
+      "weakness": [
+        "Very low personal damage"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Haydee",
+      "role": "Dealer",
+      "tier": "S",
+      "element": "Wind",
+      "tags": [
+        "dot_damage",
+        "sustained_dps"
+      ],
+      "why_meta": [
+        "Strong sustained damage with DoT effects",
+        "Good boss fight performance"
+      ],
+      "weakness": [
+        "Weak burst for speed-clear content"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Tanya",
+      "role": "Assassin",
+      "tier": "S",
+      "element": "Dark",
+      "tags": [
+        "mobility",
+        "burst_dps",
+        "single_target"
+      ],
+      "why_meta": [
+        "High mobility with dash resets",
+        "Good for targeting backline enemies"
+      ],
+      "weakness": [
+        "Fragile and needs precise positioning"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Luna",
+      "role": "Caster",
+      "tier": "S",
+      "element": "Fire",
+      "tags": [
+        "aoe_damage",
+        "crowd_control"
+      ],
+      "why_meta": [
+        "All skills deal area damage",
+        "Strong against multiple enemies"
+      ],
+      "weakness": [
+        "Very weak in single-target fights"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Seira",
+      "role": "Dealer",
+      "tier": "S",
+      "element": "Light",
+      "tags": [
+        "aoe_damage",
+        "single_target",
+        "self_buff"
+      ],
+      "why_meta": [
+        "Versatile kit with both AoE and single-target",
+        "Self-buffing ultimate ability"
+      ],
+      "weakness": [
+        "Master of none — specialists outperform her"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Elisa",
+      "role": "Support",
+      "tier": "S",
+      "element": "Water",
+      "tags": [
+        "attack_speed_buff",
+        "energy_regen"
+      ],
+      "why_meta": [
+        "Team-wide attack speed buff",
+        "Provides energy regen for allies"
+      ],
+      "weakness": [
+        "Low healing output"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Lydia",
+      "role": "Caster",
+      "tier": "S",
+      "element": "Ice",
+      "tags": [
+        "burst_dps",
+        "aoe_damage",
+        "crowd_control"
+      ],
+      "why_meta": [
+        "High burst AoE with freeze utility",
+        "Strong crowd control in PVE"
+      ],
+      "weakness": [
+        "Long skill cooldowns"
+      ],
+      "source": [
+        "Tychara Mar 2026",
+        "User Dataset"
+      ]
+    },
+    {
+      "name": "Bunnygirl Scarlet",
+      "role": "Dealer",
+      "tier": "A",
+      "element": "Fire",
+      "tags": [
+        "burst_dps"
+      ],
+      "why_meta": [
+        "Lotto Skill: Area Dealer with a certain probability to reduce or reset the ultimate skill cooldown.",
+        "Special skills grant additional turns, so they are also good at lowering enemy toughness."
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Harley",
+      "role": "Assassin",
+      "tier": "A",
+      "element": "Dark",
+      "tags": [
+        "mobility",
+        "single_target"
+      ],
+      "why_meta": [
+        "A damage tank character that grants allies increased defense and speed buffs",
+        "she is more stable to stand in the back row than the front row."
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Serpang",
+      "role": "Defender",
+      "tier": "A",
+      "element": "Earth",
+      "tags": [
+        "damage_mitigation"
+      ],
+      "why_meta": [
+        "Supporter who grants damage immunity to allies and applies an attack power reduction debuff to enemies",
+        "With the patch, the effect of healing one ally when using the basic skill - Nova Burst has been added."
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Asherah",
+      "role": "Dealer",
+      "tier": "A",
+      "element": "Fire",
+      "tags": [
+        "aoe_damage"
+      ],
+      "why_meta": [
+        "A savior with two area-of-effect skills. Since this is a distribution character, it can be used when there is no good area-of-effect dealer."
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Epindel",
+      "role": "Support",
+      "tier": "A",
+      "element": "Wind",
+      "tags": [
+        "heal"
+      ],
+      "why_meta": [
+        "A single dealer who grants immunity to special attacks",
+        "Indirectly buffed by Kira Arcana"
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Lily",
+      "role": "Support",
+      "tier": "A",
+      "element": "Light",
+      "tags": [
+        "heal",
+        "shield"
+      ],
+      "why_meta": [
+        "A powerful ultimate skill + applies an attack power reduction debuff to all enemies. Used by Cosmo Gate's Immortal King Moguls due to the shield buff."
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Frey",
+      "role": "Dealer",
+      "tier": "A",
+      "element": "Wind",
+      "tags": [
+        "sustained_dps"
+      ],
+      "why_meta": [
+        "Supporter who grants a shield to allies and removes debuffs",
+        "With the patch, the effect of generating a shield has been added when using the basic skill - Nova Burst."
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Omega",
+      "role": "Dealer",
+      "tier": "A",
+      "element": "Thunder",
+      "tags": [
+        "burst_dps"
+      ],
+      "why_meta": [
+        "To build up passive stacks, you need to warm up. It is recommended to use at least one ally with a different star attribute."
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Smile",
+      "role": "Support",
+      "tier": "A",
+      "element": "Water",
+      "tags": [
+        "heal"
+      ],
+      "why_meta": [
+        "The ultimate skill has a defense reduction debuff that helps with damage dealing. However, the basic skill coefficient is low, so it is too weak before the trigger skill is activated."
+      ],
+      "weakness": [
+        "The ultimate skill has a defense reduction debuff that helps with damage dealing. However, the basic skill coefficient is low, so it is too weak before the trigger skill is activated."
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Annah",
+      "role": "Dealer",
+      "tier": "B",
+      "element": "Fire",
+      "tags": [
+        "aoe_damage"
+      ],
+      "why_meta": [
+        "Annah is ranked B in the Star Savior PvE tier list."
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Carmen",
+      "role": "Dealer",
+      "tier": "B",
+      "element": "Dark",
+      "tags": [
+        "single_target"
+      ],
+      "why_meta": [
+        "she better than before, but it's disappointing compared to Emily. If there were an arcana exclusive to Carmen, she could probably be raised to B-tier."
+      ],
+      "weakness": [
+        "she better than before, but it's disappointing compared to Emily. If there were an arcana exclusive to Carmen, she could probably be raised to B-tier."
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Marcille",
+      "role": "Support",
+      "tier": "B",
+      "element": "Light",
+      "tags": [
+        "heal"
+      ],
+      "why_meta": [
+        "Marcille is ranked B in the Star Savior PvE tier list."
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    },
+    {
+      "name": "Trish",
+      "role": "Assassin",
+      "tier": "B",
+      "element": "Wind",
+      "tags": [
+        "mobility"
+      ],
+      "why_meta": [
+        "A single-dealer assassin whose passive activates when killing an enemy",
+        "Indirectly buffed by Kira Arcana"
+      ],
+      "weakness": [
+        "No detailed data available"
+      ],
+      "source": [
+        "Tychara Mar 2026"
+      ]
+    }
+  ]
+}

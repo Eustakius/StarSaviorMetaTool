@@ -1,0 +1,12 @@
+bin/
+obj/
+publish/
+StarSaviorTool_Release.zip
+StarSaviorTool_Release/
+StarSaviorTool/python_bin/
+backups/
+.vs/
+*.user
+__pycache__/
+*.spec
+build/
